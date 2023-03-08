@@ -1,0 +1,51 @@
+{
+  "name": "@itswooble/colors",
+  "version": "0.0.1",
+  "description": "Color palette of It's wooble UI",
+  "scripts": {
+	"build": "rollup -c"
+  },
+  "author": "It's wooble <hello@wooble.team> (https://wooble.team)",
+  "contributors": [
+    "Kirill Osintsev <hello@kirillosintsev.ru> (https://github.com/crashzky)",
+    "Dmitriy Gorbunov <dmitrgor1@yandex.ru> (https://github.com/DimaGorbusha)"
+  ],
+  "homepage": "https://ui.wooble.team/colors",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wooble-place/wooble-colors.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "itswooble",
+    "wooble",
+    "ui",
+    "design",
+    "colors",
+    "frontend"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wooble-place/wooble-colors/issues"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.35.0",
+    "rollup": "^3.18.0",
+    "rollup-plugin-dts": "^5.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^4.9.5"
+  }
+}
