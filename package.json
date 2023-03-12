@@ -17,6 +17,7 @@
     "url": "git+ssh://git@github.com/wooble-place/wooble-colors.git"
   },
   "publishConfig": {
+	"access": "public",
     "registry": "https://registry.npmjs.org/"
   },
   "main": "dist/cjs/index.js",
