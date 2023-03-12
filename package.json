@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Color palette of It's wooble UI",
   "scripts": {
+	"prepublishOnly": "rollup -c",
 	"build": "rollup -c"
   },
   "author": "It's wooble <hello@wooble.team> (https://wooble.team)",
