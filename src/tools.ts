@@ -1,4 +1,4 @@
-import { black, blue100, blue200, blue300, gray100, gray200, gray300, gray400, gray500, green100, green200, green300,
+import { black, blue100, blue200, blue300, gray100, gray200, gray300, gray400, gray500, gray600, green100, green200, green300,
 	orange, purple100, purple200, red, white, yellow } from './colors';
 import { Colors } from './types';
 
@@ -11,6 +11,7 @@ export const colors: Record<Colors, string> = {
 	'gray300': gray300,
 	'gray400': gray400,
 	'gray500': gray500,
+	'gray600': gray600,
 
 	'red': red,
 	'orange': orange,
