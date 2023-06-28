@@ -1,6 +1,6 @@
 {
   "name": "@itswooble/colors",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Color palette of It's wooble UI",
   "scripts": {
 	"prepublishOnly": "rollup -c",
@@ -14,7 +14,7 @@
   "homepage": "https://ui.wooble.team/colors",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/wooble-place/wooble-colors.git"
+    "url": "git+ssh://git@github.com/wooble-team/wooble-colors.git"
   },
   "publishConfig": {
 	"access": "public",
@@ -36,7 +36,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wooble-place/wooble-colors/issues"
+    "url": "https://github.com/wooble-team/wooble-colors/issues"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^24.0.1",
